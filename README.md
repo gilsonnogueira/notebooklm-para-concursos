@@ -1,5 +1,5 @@
 # 🏛️ Ecossistema N.A.G. (Narrative Anchor & Guide) para Concursos Públicos
-### Metodologia Aberta de Engenharia de Estudos, Ingestão Automatizada e IA Fundamentada (NotebookLM + Método MIT + Anki)
+### Metodologia Aberta de Engenharia de Estudos, Ingestão de Materiais e IA Fundamentada (NotebookLM + Método MIT + Anki)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-brightgreen.svg)](https://www.python.org/)
@@ -13,19 +13,50 @@
 Para começar a usar a metodologia imediatamente no seu material de estudo:
 
 1. **Abra o NotebookLM:** Acesse [notebooklm.google.com](https://notebooklm.google.com) e crie um caderno para a sua disciplina (ex: `Direito Tributário`).
-2. **Carregue suas Fontes Reais:** Suba os PDFs da sua aula (teoria, slides, questões da banca ou transcrição).
-3. **Configure as Regras do Caderno:** Copie o conteúdo de [`system/SYSTEM_PROMPT.md`](system/SYSTEM_PROMPT.md) nas configurações de persona/instruções do caderno.
-4. **Execute seu Primeiro Ciclo no Chat:**
+2. **Carregue os Prompts e Frameworks como FONTES:**
+   * Baixe os arquivos deste repositório e suba nas **Fontes (Sources)** do caderno:
+     * `system/SYSTEM_PROMPT.md`
+     * `system/000_MASTER_INDEX.md`
+     * Os prompts que você vai usar (ex: `prompts/PROMPT_P01_DetalharAula.md`, `PROMPT_P16_FeynmanReverso.md`, `PROMPT_P17_KitConsolidacao.md`)
+     * O framework da disciplina (ex: `frameworks/FRAMEWORK_FFCC_TRIBUTARIO_ADUANEIRO.md` ou `FRAMEWORK_FFCC_DADOS.md`).
+3. **Suba os Materiais da sua Aula:** Adicione os PDFs da sua aula (teoria, slides, questões ou transcrições).
+4. **Configure a Instrução da Conversa (Persona):**
+   * Clique nos três pontinhos no topo da conversa (Configurações da Conversa / Personalizar) e cole o texto curto de [`system/PERSONA_NOTEBOOKLM.txt`](system/PERSONA_NOTEBOOKLM.txt):
    ```text
-   Use P01 com FRAMEWORK_FFCC_JURIDICO para a Aula 01.
+   Você é um Especialista de Elite em Concursos Públicos operando sob a Arquitetura N.A.G.
+   Responda estritamente com base nos documentos e fontes carregados neste caderno.
+   Siga com rigor absoluto os arquivos de instrução presentes nas fontes: SYSTEM_PROMPT.md, 000_MASTER_INDEX.md e os prompts PROMPT_P01 a P18.
+   Use BLUF (Bottom Line Up Front) e formate tabelas em Markdown nativo GFM.
+   ```
+   > 💡 **Por que fazemos assim?** O NotebookLM possui um limite estrito de caracteres na caixa de configurações da conversa. Para contornar isso, os arquivos analíticos completos (`SYSTEM_PROMPT.md` e `PROMPT_PXX.md`) entram como **fontes documentais**, e a caixa de instruções apenas ensina a IA a obedecer às fontes!
+5. **Execute seu Primeiro Ciclo no Chat:**
+   ```text
+   Use P01 com FRAMEWORK_FFCC_TRIBUTARIO_ADUANEIRO para a Aula 01.
    ```
 Pronto! Você receberá uma dissecação estruturada em tabelas Markdown nativas, livre de alucinações e focada nas pegadinhas da banca.
 
 ---
 
+## 🤖 Preciso saber programar? Qual o papel do Antigravity, Claude ou ChatGPT?
+
+**NÃO, você NÃO precisa saber programar nem rodar scripts para usar este método!**
+
+Existe uma separação clara entre a **Metodologia Cognitiva** e os **Aceleradores Opcionais**:
+
+| Nível | Como Funciona | Quem Pode Fazer |
+| :--- | :--- | :--- |
+| **1. Modo Manual (100% no Navegador)** | Você baixa os PDFs e videoaulas do seu curso manualmente pelo navegador, sobe no NotebookLM, cola a persona e estuda com os prompts. | **Qualquer concurseiro, sem nenhum conhecimento técnico.** |
+| **2. Modo Assistido por IA (Antigravity / Claude / ChatGPT)** | Você pode usar um assistente de IA como o **Google Antigravity**, **Claude** ou **ChatGPT** para te ajudar nas tarefas operacionais: renomear arquivos em lote, extrair áudios com FFmpeg ou organizar anotações. | Concurseiros que queiram acelerar tarefas repetitivas usando IA no computador. |
+| **3. Modo Automatizado (Scripts Pessoais)** | Scripts para baixar matérias completas em lote ou transcrever com Whisper via API. | Opcional e avançado. Os sites mudam layouts frequentemente, então cada estudante pode criar suas próprias automações com ajuda de IAs se desejar. |
+
+> [!NOTE]
+> O autor deste repositório utiliza o ambiente **Google Antigravity** para orquestrar essas tarefas no dia a dia. Se você usa o **Claude** (por exemplo, integrado ao Obsidian via MCP) ou o **ChatGPT**, pode utilizá-los da exata mesma maneira. O coração do método está na **ancoragem no NotebookLM** e nos **prompts de alta fricção neural**.
+
+---
+
 ## 📌 O Que é o Ecossistema N.A.G.?
 
-O **Ecossistema N.A.G. (Narrative Anchor & Guide)** é um framework metodológico e técnico desenvolvido para estudantes de **concursos públicos de alta performance** (Carreiras Fiscais, Controle, Jurídicas e Policiais).
+O **Ecossistema N.A.G. (Narrative Anchor & Guide)** é um framework metodológico e técnico desenvolvido para estudantes de **concursos públicos de alta performance** (Carreiras Fiscais, Controle, Jurídicas, Policiais, TI e Dados).
 
 A metodologia combate os dois maiores gargalos da preparação moderna:
 1. **Sobrecarga Operacional e Fragmentação:** O tempo perdido baixando, renomeando, procurando e organizando centenas de PDFs, videoaulas e questões.
@@ -145,7 +176,7 @@ Para calibrar o olhar analítico da IA sem misturar critérios de áreas diferen
 * [`FRAMEWORK_FFCC_TRIBUTARIO_ADUANEIRO.md`](frameworks/FRAMEWORK_FFCC_TRIBUTARIO_ADUANEIRO.md): Direito Tributário, Legislação Tributária e Aduaneira.
 * [`FRAMEWORK_FFCC_CONTABIL.md`](frameworks/FRAMEWORK_FFCC_CONTABIL.md): Contabilidade Geral, Avançada, Custos, Auditoria e Pronunciamentos CPC/NBC.
 * [`FRAMEWORK_FFCC_EXATAS.md`](frameworks/FRAMEWORK_FFCC_EXATAS.md): Raciocínio Lógico, Matemática Financeira e Estatística Descritiva/Inferencial.
-* [`FRAMEWORK_FFCC_DADOS.md`](frameworks/FRAMEWORK_FFCC_DADOS.md): Fluência em Dados, Bancos Relacionais, SQL, Data Warehouse e Governança de TI.
+* [`FRAMEWORK_FFCC_DADOS.md`](frameworks/FRAMEWORK_FFCC_DADOS.md): Fluência em Dados, Bancos Relacionais, SQL, Data Warehouse, Machine Learning e Governança de TI.
 * [`FRAMEWORK_FFCC_GESTAO.md`](frameworks/FRAMEWORK_FFCC_GESTAO.md): Administração Pública, Gestão de Pessoas, Materiais, Processos (BPM) e Projetos.
 
 ### Sintaxe de Execução Rápida no Chat:
@@ -153,7 +184,25 @@ Para calibrar o olhar analítico da IA sem misturar critérios de áreas diferen
 Use P01 com FFCC_TRIBUTARIO_ADUANEIRO para a Aula 03 - Imunidades Tributárias.
 Use P16 com FFCC_CONTABIL para a Aula 04 - CPC 00 (Estrutura Conceitual).
 Use P06 com FFCC_DADOS para a questão sobre Comandos DDL vs DML em SQL.
+Use P05 com FFCC_EXATAS para 5 questões inéditas sobre Distribuição Binomial.
 ```
+
+---
+
+## ❓ FAQ — Perguntas Frequentes
+
+### 1. Funciona para qualquer matéria (TI, Estatística, Exatas, etc.)?
+**Sim, perfeitamente.** O método não é exclusivo para Direito. No repositório você encontra frameworks analíticos específicos:
+* Para **Exatas / Matemática / Estatística**: use `FRAMEWORK_FFCC_EXATAS.md`. A IA foca em premissas de fórmulas, árvores de decisão de cálculo e armadilhas numéricas da banca.
+* Para **TI / Banco de Dados / Ciência de Dados**: use `FRAMEWORK_FFCC_DADOS.md`. A IA disseca queries SQL, modelagem relacional/dimensional, pipelines e governança.
+
+### 2. Deu erro de limite de 10.000 caracteres nas Configurações da Conversa. O que fazer?
+**Você não deve colar o `SYSTEM_PROMPT.md` inteiro nessa caixa.**
+* Os arquivos completos (`SYSTEM_PROMPT.md`, `000_MASTER_INDEX.md` e os prompts `P01` a `P18`) são subidos como **Fontes (.md)** do caderno.
+* Na caixa de configurações da conversa, cole apenas a instrução curta de [`system/PERSONA_NOTEBOOKLM.txt`](system/PERSONA_NOTEBOOKLM.txt) (tem menos de 500 caracteres). A IA lerá as regras completas diretamente das fontes!
+
+### 3. Preciso usar o Google Antigravity?
+**Não.** O autor utiliza o Antigravity como assistente de codificação e automação local para gerenciar diretórios e arquivos em lote. Você pode utilizar o **Claude** (com MCP ou via chat), o **ChatGPT** ou simplesmente organizar suas pastas e arquivos manualmente no Windows/Mac.
 
 ---
 
