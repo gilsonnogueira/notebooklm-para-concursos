@@ -37,6 +37,20 @@ Pronto! Você receberá uma dissecação estruturada em tabelas Markdown nativas
 
 ---
 
+## 🎨 Leia, Adapte e Personalize: Isto é um Ponto de Partida!
+
+> [!TIP]
+> **Este repositório é uma base modular, não uma camisa de força.**
+> 
+> A engenharia documentada aqui **não reflete 100% dos gostos e rotinas estritamente pessoais do autor**. O objetivo foi intencionalmente **generalizar a metodologia**, removendo particularidades e preferências idiossincráticas, para entregar um ecossistema flexível e verdadeiramente útil para qualquer estudante.
+> 
+> **O que você DEVE fazer:**
+> 1. **Leia os arquivos e prompts:** Entenda a mecânica de cada `PXX` e do `SYSTEM_PROMPT.md`.
+> 2. **Ajuste ao seu estilo:** Se você prefere respostas mais concisas, altere os parâmetros. Se estuda para outra banca (como Cebraspe ou FCC), troque os exemplos. Se não usa o Anki, pode descartar a geração de flashcards.
+> 3. **Faça o método ser seu:** A melhor metodologia de estudos é aquela que se adapta à sua carga horária, ao seu concurso-alvo e à forma como o seu cérebro aprende melhor!
+
+---
+
 ## 🤖 Preciso saber programar? Qual o papel do Antigravity, Claude ou ChatGPT?
 
 **NÃO, você NÃO precisa saber programar nem rodar scripts para usar este método!**
