@@ -86,6 +86,20 @@ Esse arquivo Markdown possui marcadores de minutagem e cabeçalhos claros por bl
 
 ---
 
+---
+
+## 💡 Gestão Eficiente de Fontes: Você Não Precisa Baixar Tudo
+
+> [!TIP]
+> **Economia de Tempo e de Fontes (Free vs. Pro):**
+> * **PDF Original vs. Simplificado vs. Marcação:** No Estratégia Concursos, o **PDF Original** é a matriz completa. Ele já contempla integralmente tudo o que existe no Simplificado e nas Marcações. Para alimentar o NotebookLM, **basta subir o PDF Original**.
+> * **Para quem servem as Transcrições?** As transcrições de videoaulas (`Aula XX - Transcrição.md`) são cruciais para concurseiros cujo canal principal de estudo é a **videoaula**. Assim, o NotebookLM atua como um assistente de classe que responde dúvidas exatas sobre explicações, exemplos ou entonações orais que o professor deu no vídeo. Se a sua rota de estudo é estritamente via PDF teórico, as transcrições tornam-se opcionais.
+> * **O Limite de 30 Fontes (Conta Gratuita) vs. 300 Fontes (Pro):**
+>   * Na **versão gratuita**, o NotebookLM permite até **30 fontes por caderno**. Um curso extenso com dezenas de aulas e vários tipos de arquivos estourará o limite facilmente. A recomendação tática é trabalhar em **cadernos rotativos por módulo** ou subir estritamente o PDF Original e o caderno de questões.
+>   * Na **versão Pro / Google Workspace**, o teto sobe para **300 fontes por caderno**, permitindo alocar disciplinas inteiras sem restrições.
+
+---
+
 ## 🔒 Higienização e Tarjamento de Dados Pessoais
 
 Documentos baixados de plataformas de concurso contêm marcas d'água de identificação cadastral (Nome e CPF). Antes de catalogar esses materiais para estudo integrado:

@@ -206,6 +206,16 @@ Use P05 com FFCC_EXATAS para 5 questões inéditas sobre Distribuição Binomial
 
 ---
 
+### 4. Preciso baixar e subir TODOS os PDFs (Original, Simplificado, Marcação) e Transcrições?
+**Não! Seja cirúrgico para poupar tempo e fontes.**
+* **PDF Original basta:** No Estratégia, por exemplo, o **PDF Original** já é completo e contempla 100% do conteúdo presente no Simplificado e na Marcação dos Aprovados. Você só precisa subir o Original no caderno.
+* **Transcrições de Videoaulas:** O envio de transcrições (`Aula XX - Transcrição.md`) é especialmente indicado para quem **estuda mais assistindo a videoaulas** do que lendo livros em PDF. Com a transcrição no caderno, o NotebookLM tira qualquer dúvida pontual sobre o que o professor falou em determinado minuto da aula. Se você estuda 100% pelo PDF, as transcrições são opcionais.
+* **Atenção aos Limites de Fontes do NotebookLM:**
+  * **Usuários Gratuitos (Free):** O limite é de **30 fontes por caderno**. Se você subir 10 aulas completas, cada uma com 3 PDFs + transcrições + prompts, você facilmente estourará esse teto. Por isso, suba apenas a aula ou o bloco de aulas que você está estudando no momento (ou suba apenas o PDF Original).
+  * **Usuários Google Workspace / Pro:** O limite sobe para **300 fontes por caderno**, permitindo subir cursos inteiros com todas as fontes sem preocupação.
+
+---
+
 ## 📊 Regra de Formatação Visual e Compatibilidade
 
 Para garantir legibilidade absoluta em qualquer leitor moderno (**GitHub**, **Obsidian**, **Joplin**, **Typora**):
