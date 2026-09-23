@@ -142,6 +142,7 @@ Para aprofundar em cada etapa técnica da engenharia de estudos, consulte os man
 * 📸 **[Demonstração Real — Dissecação Técnica de Videoaula no NotebookLM](docs/05_exemplo_real_dissecacao_video.md)**: Captura de tela da interface do NotebookLM em ação dissecando uma aula de AFO (PPA, LDO e LOA), organização real das fontes no painel lateral e a resposta completa gerada pela IA.
 * 📊 **[Guia 06 — Relatórios Interativos no Gemini Notebook (Interactive Reports)](docs/06_guia_relatorios_interativos_gemini_notebook.md)**: Passo a passo visual de como criar relatórios dinâmicos compostos com o `P19`, incorporando Infográficos de alta densidade, Mapas Mentais nativos e Quizzes interativos no corpo do documento.
 * 🔬 **[Demonstração Real — Raio-X de Incidência e DNA da Banca via Acervo de Questões](docs/07_exemplo_real_raio_x_questoes.md)**: Caso prático real de AFO mostrando como um acervo robusto de questões permite ao NotebookLM calcular incidência estatística (59,4%), mapear a concorrência e dissecar as pegadinhas de FGV, Cebraspe e FCC.
+* 🧬 **[Guia 08 — Fundamentação Científica (VARK & Neurociência) e a Nova Fronteira: Gemini Estudantes](docs/08_fundamentacao_cientifica_vark_e_gemini_estudantes.md)**: O respaldo em ciência cognitiva (Paivio, Sweller, Karpicke, Bjork), a matriz multimodal VARK e o passo a passo da integração com a nova aba *Estudantes* do Gemini (`gemini.google.com/students`) com Canvas e Deep Research.
 
 ---
 
@@ -242,6 +243,20 @@ Use P05 com FFCC_EXATAS para 5 questões inéditas sobre Distribuição Binomial
 Para garantir legibilidade absoluta em qualquer leitor moderno (**GitHub**, **Obsidian**, **Joplin**, **Typora**):
 1. **Tabelas Nativas GFM Obrigatórias:** Comparações e matrizes utilizam barras verticais e alinhamentos (`| Coluna 1 | Coluna 2 |` e `| :--- | :--- |`). Caixas de texto em ASCII (`┌─┬─┐`) são proibidas.
 2. **Diagramas Vetoriais em Mermaid.js:** Fluxogramas e linhas do tempo utilizam exclusivamente o padrão ` ```mermaid `.
+
+---
+
+## 🤝 Reconhecimentos, Créditos e Linhagem Open-Source (Prior Art)
+
+A transparência, a honestidade intelectual e o respeito à comunidade open-source são princípios inegociáveis deste projeto:
+
+1. **A Inspiração Conceitual N.A.G. (Narrative Anchor & Guide):**
+   * O conceito embrionário de utilizar uma âncora narrativa para manter fidelidade estrita de comportamento em LLMs foi inspirado no projeto aberto [`lrdmora/N_A_G-Narrative-Anchor-and-Guide`](https://github.com/lrdmora/N_A_G-Narrative-Anchor-and-Guide).
+   * O **Ecossistema N.A.G. para Concursos Públicos** adaptou, expandiu e especializou essa mecânica para a preparação de certames de alta complexidade (carreiras fiscais, controle e jurídicas), criando as 4 lentes analíticas por grande área (`FFCC Core`), os 19 Prompts de Elite e a integração com o ciclo ultradiano do **Método MIT**.
+2. **Integrações com Claude e Servidores MCP:**
+   * Reconhecimento ao trabalho de desenvolvedores da comunidade, como o projeto [`m4yk3ldev/notebooklm-mcp`](https://github.com/m4yk3ldev/notebooklm-mcp) e aos tutoriais de automação de Julian Goldie, que demonstraram os primeiros caminhos para conectar clientes externos e agentes ao ecossistema do NotebookLM.
+3. **Comunidade Global e Pesquisa Aberta:**
+   * Agradecimento à vibrante comunidade do subreddit [`r/notebooklm`](https://www.reddit.com/r/notebooklm/) e aos pesquisadores de inteligência artificial fundamentada (*Source-Grounded AI*) do Google Labs, cujas discussões técnicas viabilizaram a otimização contínua desta engenharia de estudos.
 
 ---
 
