@@ -86,3 +86,16 @@ O NotebookLM aplica a metodologia dos **5-Whys (Cinco Porquês)**:
 1. **Identifica a Causa Raiz do Erro:** Mostra se a falha decorreu de distração na leitura ("pode" vs. "deve"), desconhecimento de prazo literal ou indução por pegadinha da banca.
 2. **Dissecação das Alternativas Falsas:** Explica cirurgicamente por que cada item errado é incorreto.
 3. **Ancoragem na Lei Seca:** Aponta o artigo de lei exato, súmula vinculante ou jurisprudência que encerra a controvérsia.
+
+---
+
+## 6. Caso Real: Cruzando a Teoria com o Acervo de Questões no NotebookLM
+
+> [!TIP]
+> **A REGRA DE OURO DO ACERVO DE QUESTÕES:**
+> Quanto mais amplo, categorizado e atualizado for o acervo de questões disponibilizado no caderno, mais cirúrgica será a análise estatística e diagnóstica da IA.
+
+Ao fornecer cadernos completos de questões (comentadas nos PDFs ou geradas pelas ferramentas oficiais do QC e Estratégia/Gran), o NotebookLM consegue calcular a incidência real da matéria, mapear a taxa de acerto da concorrência e traçar o DNA de cobrança específico de bancas como **Cebraspe, FGV e FCC**.
+
+Veja a demonstração real completa com prints da interface e a resposta entregue pela IA em:
+👉 **[`docs/07_exemplo_real_raio_x_questoes.md`](07_exemplo_real_raio_x_questoes.md)**.
