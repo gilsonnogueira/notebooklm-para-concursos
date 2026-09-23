@@ -1,76 +1,69 @@
 # 🎯 Guia 02 — Banco de Questões por Tópico e Estudo Sem Distrações
 
-A resolução de questões anteriores da banca examinadora (FGV, Cebraspe, FCC, etc.) é o pilar central da preparação para concursos públicos de alto rendimento. Este guia descreve como estruturar um banco de questões limpo, categorizado por tópico do edital, ideal para resolução cega e sem interferências cognitivas.
+A resolução de questões de provas anteriores da banca examinadora (FGV, Cebraspe, FCC, etc.) é o pilar central da preparação para concursos públicos de alto rendimento. Este guia descreve como estruturar um banco de questões limpo, categorizado por tópico do edital, ideal para resolução cega e sem interferências cognitivas.
 
 ---
 
-## 🧭 O Princípio da Fricção Cognitiva
+## 1. As Questões dos Próprios PDFs das Aulas (Ponto de Partida Natural)
 
-A maioria dos candidatos comete um erro fatal ao resolver questões online:
+Antes de procurar qualquer fonte externa de questões, lembre-se: **os próprios PDFs de teoria (Estratégia e Gran) já vêm com uma lista extensa de questões comentadas ao final de cada aula**.
+
+* **Por que isso é tão valioso?**
+  * O professor já selecionou as questões mais representativas do tema.
+  * Ao subir o PDF da aula no NotebookLM, a IA já tem acesso imediato a essa bateria de questões para traçar o **perfil estatístico de cobrança da banca**, mapear pegadinhas frequentes e entender o DNA do examinador sem que você precise fazer nada a mais.
+
+---
+
+## 2. Fornecendo Mais Questões ao NotebookLM (Filtro Cirúrgico)
+
+Para matérias de peso elevado ou tópicos muito recorrentes, é altamente recomendável complementar o caderno com um volume maior de questões oficiais recentes.
+
+Você pode extrair blocos de questões oficiais utilizando os filtros avançados das plataformas:
+* **Filtros Essenciais:** `Disciplina` + `Assunto do Tópico` + `Banca Examinadora` + `Órgão/Cargo` + `Ano Mais Recente`.
+
+### Onde obter e como gerar:
+1. **QConcursos (Recurso Oficial de Impressão):**
+   * Você pode aplicar os filtros no site do QConcursos, selecionar as questões desejadas e utilizar a função oficial do navegador/site para **"Imprimir / Salvar como PDF"**.
+   * Ao gerar o PDF ou caderno impresso, você obtém uma lista limpa para resolver no papel ou leitor digital sem a distração dos comentários imediatos dos fóruns.
+2. **Sistemas Integrados de Questões (Estratégia Questões & Gran Questões):**
+   * Ambas as plataformas possuem bancos de questões robustos e integrados ao plano do aluno, permitindo filtrar por aula do curso, montar simulados personalizados e exportar cadernos de questões em PDF para resolução offline.
+
+---
+
+## 3. O Princípio da Fricção Cognitiva: Por que Estudar Sem Distrações?
+
+A maioria dos candidatos comete um erro crítico ao resolver questões diretamente na tela:
 1. Respondem a uma questão no site.
-2. Em caso de dúvida ou erro, leem instantaneamente os comentários soltos antes mesmo de pensar.
-3. Têm a sensação de aprendizado imediato (**ilusão de competência/fluência**), mas esquecem o motivo do erro na semana seguinte.
+2. Em caso de dúvida ou erro, abrem imediatamente a aba de comentários antes mesmo de refletir sobre o motivo da falha.
+3. Têm a sensação de aprendizado momentâneo (**ilusão de fluência**), mas esquecem a regra na semana seguinte porque não houve esforço neural de recuperação.
 
 **A Abordagem N.A.G.:**
-* As questões são filtradas rigorosamente pelo **edital do concurso (Disciplina + Assunto + Banca)**.
-* Os blocos de questões são impressos ou compilados em **Markdown/PDF limpos**, contendo apenas **Enunciado e Alternativas**.
-* O candidato é forçado a resolver as questões em um bloco contínuo (ex: 15 a 20 questões) em silêncio cognitivo, simulando exatamente o ambiente real de prova.
+* O concurseiro resolve blocos de 15 a 20 questões em **silêncio cognitivo**, no papel ou em caderno digital limpo, simulando a pressão real do dia da prova.
+* Apenas após concluir a bateria, os erros são auditados com profundidade.
 
 ---
 
-## 🛠️ O Pipeline de Extração e Compilação
+## 4. O Fluxo de Trabalho com Questões
 
 ```mermaid
 flowchart TD
-    A["Plataforma de Questões<br>(QConcursos / Gran Questões)"] --> B["Filtro Cirúrgico<br>(Banca + Disciplina + Assunto)"]
-    B --> C["Exportação Estruturada<br>(Enunciado, Alternativas, Gabarito, Metadados)"]
-    C --> D["Conversão para Formato de Estudo<br>(Caderno em Markdown / PDF)"]
-    D --> E["Resolução Cega<br>(Simulado no Papel ou Leitor Digital)"]
-    E --> F["Auditoria Cirúrgica via IA<br>(Prompt P06 - Análise dos 5-Whys)"]
+    A["Questões da Própria Aula (PDF)<br>ou Caderno Filtrado (QC / Gran / Estratégia)"] --> B["Resolução Cega em Bloco<br>(Simulado no Papel ou Leitor Digital)"]
+    B --> C["Identificação dos Erros e Dúvidas"]
+    C --> D["Auditoria Cirúrgica no NotebookLM<br>(Prompt P06 - Análise dos 5-Whys)"]
+    D --> E["Consolidação no Anki<br>(Prompt P17 - Cartão com a Causa do Erro)"]
 ```
 
 ---
 
-## 📄 Estrutura Padrão do Caderno de Questões (Markdown)
+## 5. Como Dissecar os Erros no NotebookLM (`P06`)
 
-O arquivo compilado por disciplina (ex: `Banco_Questoes_Direito_Tributario.md`) segue o seguinte formato padronizado:
+Quando você errar ou hesitar em uma questão do seu material, não recorra a explicações rasas. Invoque o `P06` no chat do caderno:
 
-```markdown
-# BANCO DE QUESTÕES: DIREITO TRIBUTÁRIO — CRÉDITO TRIBUTÁRIO
-**Banca:** FGV | **Total:** 30 Questões | **Nível:** Superior
-
----
-
-### Questão 01 (Cód. Q1892341)
-**Órgão:** SEFAZ-SP — Auditor Fiscal da Receita Estadual
-**Ano:** 2023 | **Dificuldade:** Alta
-
-De acordo com o Código Tributário Nacional (Lei nº 5.172/1966), a suspensão da exigibilidade do crédito tributário:
-
-- A) extingue a obrigação acessória dependente da obrigação principal.
-- B) dispensa o cumprimento das obrigações acessórias dependentes da obrigação principal.
-- C) não dispensa o cumprimento das obrigações acessórias dependentes da obrigação principal cujo crédito seja objeto da suspensão.
-- D) impede a homologação do lançamento por homologação.
-- E) impede que a autoridade administrativa realize o lançamento para prevenir a decadência.
-
-<details>
-<summary><b>Gabarito Oficial</b></summary>
-<b>Resposta: C</b> (Art. 151, parágrafo único, do CTN).
-</details>
+```text
+Use P06 para a questão sobre Suspensão da Exigibilidade do Crédito Tributário.
 ```
 
----
-
-## 🔬 Como Usar as Questões no NotebookLM
-
-1. **Ingestão no Caderno da Disciplina:** O arquivo de questões da matéria é carregado como uma das fontes oficiais do caderno.
-2. **Resolução de Dúvidas via `P06` (Resolução Cirúrgica):**
-   * Ao errar ou hesitar em uma questão, o concurseiro não recorre a respostas genéricas.
-   * Invoca no chat:
-     ```text
-     Use P06 para a Questão Q1892341 do Banco de Questões.
-     ```
-   * O NotebookLM executa a técnica dos **5-Whys**:
-     * Identifica o cerne da cobrança da banca.
-     * Disseca por que cada alternativa incorreta é falsa (indicando a pegadinha ou inversão de termos).
-     * Aponta o dispositivo literal exato da Lei Seca ou jurisprudência vinculante que fundamenta o gabarito.
+O NotebookLM aplica a metodologia dos **5-Whys (Cinco Porquês)**:
+1. **Identifica a Causa Raiz do Erro:** Mostra se a falha decorreu de distração na leitura ("pode" vs. "deve"), desconhecimento de prazo literal ou indução por pegadinha da banca.
+2. **Dissecação das Alternativas Falsas:** Explica cirurgicamente por que cada item errado é incorreto.
+3. **Ancoragem na Lei Seca:** Aponta o artigo de lei exato, súmula vinculante ou jurisprudência que encerra a controvérsia.
