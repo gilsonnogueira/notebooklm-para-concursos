@@ -21,12 +21,31 @@ Para matérias de peso elevado ou tópicos muito recorrentes, é altamente recom
 Você pode extrair blocos de questões oficiais utilizando os filtros avançados das plataformas:
 * **Filtros Essenciais:** `Disciplina` + `Assunto do Tópico` + `Banca Examinadora` + `Órgão/Cargo` + `Ano Mais Recente`.
 
-### Onde obter e como gerar:
-1. **QConcursos (Recurso Oficial de Impressão):**
-   * Você pode aplicar os filtros no site do QConcursos, selecionar as questões desejadas e utilizar a função oficial do navegador/site para **"Imprimir / Salvar como PDF"**.
-   * Ao gerar o PDF ou caderno impresso, você obtém uma lista limpa para resolver no papel ou leitor digital sem a distração dos comentários imediatos dos fóruns.
-2. **Sistemas Integrados de Questões (Estratégia Questões & Gran Questões):**
-   * Ambas as plataformas possuem bancos de questões robustos e integrados ao plano do aluno, permitindo filtrar por aula do curso, montar simulados personalizados e exportar cadernos de questões em PDF para resolução offline.
+### A. QConcursos: O Recurso Oficial de Impressão de Cadernos
+No site do QConcursos, após aplicar os filtros desejados, você pode gerar um caderno limpo de questões utilizando o recurso nativo de impressão:
+
+1. **Clique no ícone da Impressora** na barra superior da lista de questões:
+   
+   ![Ícone de Imprimir no QConcursos](assets/qc_botao_imprimir.png)
+
+2. **Selecione a opção "Salvar como PDF" (Save as PDF)** no navegador:
+   
+   ![Salvar como PDF no diálogo de impressão](assets/qc_salvar_como_pdf.png)
+
+* **Vantagem Imediata:** Você gera um documento PDF oficial, limpo, diagramado com enunciado e alternativas, perfeito para imprimir ou resolver no tablet/leitor digital sem nenhuma distração de comentários, curtidas ou fóruns.
+
+---
+
+### B. Sistemas Integrados de Questões (Estratégia Questões & Gran Questões)
+
+Tanto o **Estratégia Concursos** quanto o **Gran Cursos Online** possuem plataformas integradas de questões completas incluídas nas assinaturas:
+
+![Interface do Estratégia Questões](assets/estrategia_questoes_banco.png)
+
+* **Estratégia Questões:** Permite criar cadernos e simulados filtrados por aula do curso ou tema do edital, com filtros avançados de banca, cargo e ano, além de opções de exportação.
+* **Gran Questões:** Permite montar listas direcionadas por disciplina e assunto, acompanhar percentual de acerto e exportar simulados em formato limpo.
+
+Ambos os ecossistemas permitem que o estudante monte baterias customizadas de 20 a 50 questões focadas estritamente na banca do concurso.
 
 ---
 
