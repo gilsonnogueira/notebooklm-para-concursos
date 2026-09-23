@@ -185,6 +185,7 @@ Cada arquivo em `prompts/` é um agente instrucional modular calibrado para o mo
 | **`P16`** | [`PROMPT_P16_FeynmanReverso.md`](prompts/PROMPT_P16_FeynmanReverso.md) | **[Método MIT]** | Explicação prática às cegas submetida à **Auditoria Corretiva de 5 Pontos**. |
 | **`P17`** | [`PROMPT_P17_KitConsolidacao.md`](prompts/PROMPT_P17_KitConsolidacao.md) | **[Método MIT]** | Fechamento da sessão: Folha Resumo, Tabela de Erros, Cronograma e Anki CSV. |
 | **`P18`** | [`PROMPT_P18_SintesePreditiva.md`](prompts/PROMPT_P18_SintesePreditiva.md) | **[Método MIT]** | Matriz acumuladora de armadilhas da banca para revisão de véspera de prova (D-1). |
+| **`P19`** | [`PROMPT_P19_RelatorioInterativo.md`](prompts/PROMPT_P19_RelatorioInterativo.md) | **[Interativo]** | Hub de Relatório Interativo Adaptativo com preferência por Infográficos, Quizzes e Mapas do Estúdio. |
 
 ---
 
