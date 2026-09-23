@@ -20,15 +20,18 @@ Para começar a usar a metodologia imediatamente no seu material de estudo:
      * Os prompts que você vai usar (ex: `prompts/PROMPT_P01_DetalharAula.md`, `PROMPT_P16_FeynmanReverso.md`, `PROMPT_P17_KitConsolidacao.md`)
      * O framework da disciplina (ex: `frameworks/FRAMEWORK_FFCC_TRIBUTARIO_ADUANEIRO.md` ou `FRAMEWORK_FFCC_DADOS.md`).
 3. **Suba os Materiais da sua Aula:** Adicione os PDFs da sua aula (teoria, slides, questões ou transcrições).
-4. **Configure a Instrução da Conversa (Persona):**
-   * Clique nos três pontinhos no topo da conversa (Configurações da Conversa / Personalizar) e cole o texto curto de [`system/PERSONA_NOTEBOOKLM.txt`](system/PERSONA_NOTEBOOKLM.txt):
-   ```text
-   Você é um Especialista de Elite em Concursos Públicos operando sob a Arquitetura N.A.G.
-   Responda estritamente com base nos documentos e fontes carregados neste caderno.
-   Siga com rigor absoluto os arquivos de instrução presentes nas fontes: SYSTEM_PROMPT.md, 000_MASTER_INDEX.md e os prompts PROMPT_P01 a P18.
-   Use BLUF (Bottom Line Up Front) e formate tabelas em Markdown nativo GFM.
-   ```
-   > 💡 **Por que fazemos assim?** O NotebookLM possui um limite estrito de caracteres na caixa de configurações da conversa. Para contornar isso, os arquivos analíticos completos (`SYSTEM_PROMPT.md` e `PROMPT_PXX.md`) entram como **fontes documentais**, e a caixa de instruções apenas ensina a IA a obedecer às fontes!
+4. **Configure a Instrução da Conversa (Personalizar):**
+   * No canto superior direito, clique nos três pontinhos e selecione **"Configurar as conversas"**:
+   
+   ![Menu Configurar as conversas](docs/assets/configurar_conversa_menu.png)
+
+   * Na tela que abrir, escolha a opção **"Personalizado"** e cole a instrução do sistema:
+   
+   ![Modal de Personalização do NotebookLM com SYSTEM_PROMPT](docs/assets/configurar_conversa_modal.png)
+
+   * **Como preencher:**
+     * Você pode colar o conteúdo completo de [`system/SYSTEM_PROMPT.md`](system/SYSTEM_PROMPT.md) (ele foi otimizado para caber com folga no limite de 10.000 caracteres, consumindo cerca de 6.000 a 7.300 caracteres).
+     * Ou colar a versão enxuta de [`system/PERSONA_NOTEBOOKLM.txt`](system/PERSONA_NOTEBOOKLM.txt) caso já tenha subido o `SYSTEM_PROMPT.md` como fonte do caderno.
 5. **Execute seu Primeiro Ciclo no Chat:**
    ```text
    Use P01 com FRAMEWORK_FFCC_TRIBUTARIO_ADUANEIRO para a Aula 01.
