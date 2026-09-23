@@ -250,13 +250,17 @@ Para garantir legibilidade absoluta em qualquer leitor moderno (**GitHub**, **Ob
 
 A transparência, a honestidade intelectual e o respeito à comunidade open-source são princípios inegociáveis deste projeto:
 
-1. **A Inspiração Conceitual N.A.G. (Narrative Anchor & Guide):**
+1. **Motor de Automação e CLI Python (`notebooklm-py`):**
+   * A biblioteca técnica utilizada para automação, pipelines de terminal, extração de metadados e orquestração programática é o [`teng-lin/notebooklm-py`](https://github.com/teng-lin/notebooklm-py), desenvolvido por Teng Lin. É essa ferramenta que viabiliza o comando `notebooklm` no terminal e a integração fluida sem dependência exclusiva da interface web.
+2. **A Inspiração Conceitual N.A.G. (Narrative Anchor & Guide):**
    * O conceito embrionário de utilizar uma âncora narrativa para manter fidelidade estrita de comportamento em LLMs foi inspirado no projeto aberto [`lrdmora/N_A_G-Narrative-Anchor-and-Guide`](https://github.com/lrdmora/N_A_G-Narrative-Anchor-and-Guide).
    * O **Ecossistema N.A.G. para Concursos Públicos** adaptou, expandiu e especializou essa mecânica para a preparação de certames de alta complexidade (carreiras fiscais, controle e jurídicas), criando as 4 lentes analíticas por grande área (`FFCC Core`), os 19 Prompts de Elite e a integração com o ciclo ultradiano do **Método MIT**.
-2. **Integrações com Claude e Servidores MCP:**
-   * Reconhecimento ao trabalho de desenvolvedores da comunidade, como o projeto [`m4yk3ldev/notebooklm-mcp`](https://github.com/m4yk3ldev/notebooklm-mcp) e aos tutoriais de automação de Julian Goldie, que demonstraram os primeiros caminhos para conectar clientes externos e agentes ao ecossistema do NotebookLM.
-3. **Comunidade Global e Pesquisa Aberta:**
-   * Agradecimento à vibrante comunidade do subreddit [`r/notebooklm`](https://www.reddit.com/r/notebooklm/) e aos pesquisadores de inteligência artificial fundamentada (*Source-Grounded AI*) do Google Labs, cujas discussões técnicas viabilizaram a otimização contínua desta engenharia de estudos.
+3. **Integrações com Claude e Servidores MCP:**
+   * Reconhecimento a projetos da comunidade como [`m4yk3ldev/notebooklm-mcp`](https://github.com/m4yk3ldev/notebooklm-mcp) e aos experimentos de automação de Julian Goldie, que demonstraram os primeiros caminhos para conectar clientes externos e servidores MCP ao ecossistema do NotebookLM.
+4. **Comunidades, Validação Coletiva e Pesquisa Aberta:**
+   * **Comunidade Brasileira do Reddit ([`r/concursospublicos`](https://www.reddit.com/r/concursospublicos/)):** O principal celeiro de debate, troca de experiências e validação em campo das dores reais dos concurseiros no Brasil. Foi a partir das discussões e do feedback dessa comunidade que as demandas práticas por dissecação de bancas (FGV, Cebraspe, FCC), análise estatística de incidência e cadernos anti-alucinação ganharam vida.
+   * **Comunidade Global do Reddit ([`r/notebooklm`](https://www.reddit.com/r/notebooklm/)):** Espaço internacional de testes técnicos, engenharia reversa e discussão de novas features do ecossistema do Google Labs.
+   * **Google Labs & Google Research:** Pelo desenvolvimento da arquitetura de IA fundamentada em fontes (*Source-Grounded AI*).
 
 ---
 

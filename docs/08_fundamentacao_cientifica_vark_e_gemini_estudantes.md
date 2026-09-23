@@ -78,6 +78,10 @@ O Ecossistema N.A.G. apoia-se em literatura científica revisada por pares (*pee
 * **Artigo Científico:** *When Thinking Is Outsourced: Cognitive Offloading and Critical Thinking Among University Students Using Generative AI* (MDPI, 2026).
 * **Mecanismo:** Se a IA faz todo o raciocínio pelo estudante, a retenção é zero. O N.A.G. inverte o papel da IA: ela atua como **treinadora socrática rígida** e **auditora de falhas**, exigindo que o cérebro do candidato execute o trabalho pesado.
 
+### C. Orquestração Programática e Pipelines de Terminal (`notebooklm-py`)
+* **Biblioteca Open-Source:** [`teng-lin/notebooklm-py`](https://github.com/teng-lin/notebooklm-py) por Teng Lin.
+* **Mecanismo:** Viabiliza a orquestração programática via linha de comando (`notebooklm ask`, `metadata`, `source list`), alimentando cadernos automaticamente com acervos de questões e videoaulas, extraindo notas estruturadas e integrando agentes inteligentes sem depender unicamente de cliques manuais na web.
+
 ---
 
 # PARTE 2: A Nova Fronteira — Google Gemini Estudantes (`gemini.google.com/students`)
