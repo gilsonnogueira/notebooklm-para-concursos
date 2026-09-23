@@ -8,7 +8,7 @@ version: 4.0
 # 🗺️ 000_MASTER_INDEX
 
 > [!NOTE]
-> Este arquivo é a espinha dorsal do ecossistema N.A.G. Ele informa ao NotebookLM quais módulos operacionais existem ("P01" a "P14") e para que servem.
+> Este arquivo é a espinha dorsal do ecossistema N.A.G. Ele informa ao NotebookLM quais módulos operacionais existem ("P01" a "P19") e para que servem.
 
 ## Catálogo de Fontes Ativas (Prompts)
 
@@ -32,6 +32,7 @@ version: 4.0
 | **P16** | `PROMPT_P16_FeynmanReverso.md` | Feynman Reverso e Auditoria Socrática Rígida (Método MIT — Passos 2 e 4). |
 | **P17** | `PROMPT_P17_KitConsolidacao.md` | Kit Oficial de Repasse e Consolidação da Sessão de 90m (Folha Resumo, Tabela de Erros, Anki). |
 | **P18** | `PROMPT_P18_SintesePreditiva.md` | Síntese Preditiva Acumulada da Disciplina (Matriz de Armadilhas da Reta Final). |
+| **P19** | `PROMPT_P19_RelatorioInterativo.md` | Hub de Relatório Interativo Adaptativo (Síntese Teórica com Infográficos, Quizzes e Mapas do Estúdio). |
 
 ## Frameworks Analíticos Especializados (FFCC Core)
 Espinhas dorsais analíticas em 4 quadrantes (Forma, Função, Conteúdo, Contexto) específicas por grande área:

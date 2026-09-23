@@ -159,7 +159,7 @@ Em vez de resumos passivos que geram 83% de esquecimento após poucos minutos, a
 
 ---
 
-## 📑 A Biblioteca de Prompts de Elite (P01 a P18)
+## 📑 A Biblioteca de Prompts de Elite (P01 a P19)
 
 Cada arquivo em `prompts/` é um agente instrucional modular calibrado para o motor de raciocínio do NotebookLM:
 
@@ -216,7 +216,7 @@ Use P05 com FFCC_EXATAS para 5 questões inéditas sobre Distribuição Binomial
 
 ### 2. Deu erro de limite de 10.000 caracteres nas Configurações da Conversa. O que fazer?
 **Você não deve colar o `SYSTEM_PROMPT.md` inteiro nessa caixa.**
-* Os arquivos completos (`SYSTEM_PROMPT.md`, `000_MASTER_INDEX.md` e os prompts `P01` a `P18`) são subidos como **Fontes (.md)** do caderno.
+* Os arquivos completos (`SYSTEM_PROMPT.md`, `000_MASTER_INDEX.md` e os prompts `P01` a `P19`) são subidos como **Fontes (.md)** do caderno.
 * Na caixa de configurações da conversa, cole apenas a instrução curta de [`system/PERSONA_NOTEBOOKLM.txt`](system/PERSONA_NOTEBOOKLM.txt) (tem menos de 500 caracteres). A IA lerá as regras completas diretamente das fontes!
 
 ### 3. Preciso usar o Google Antigravity?

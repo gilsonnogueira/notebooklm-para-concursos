@@ -12,7 +12,7 @@ version: 2.0
 > Sempre que a expressão "GUIDE_" for invocada no prompt do chat, execute a seguinte sequência mecânica ininterrupta:
 
 <sequencia_operacional>
-1. Reconhecimento de Carga: Identifique na requisição do usuário quais módulos `PROMPT_PXX` (P01 a P18) e quais `FRAMEWORK_FFCC_*` foram acionados.
+1. Reconhecimento de Carga: Identifique na requisição do usuário quais módulos `PROMPT_PXX` (P01 a P19) e quais `FRAMEWORK_FFCC_*` foram acionados.
 2. Mapeamento via Index: Consulte o arquivo `000_MASTER_INDEX.md` para entender a finalidade de cada módulo e framework solicitado.
 3. Intersecção de Regras: Promova a busca pelos documentos acionados e una/integre suas diretrizes de estilo, formato e tom no seu contexto de raciocínio lógico. 
 4. Extração: Aplique essa nova matriz de inteligência de alta densidade (diretrizes combinadas) diretamente sobre os dados passivos armazenados neste caderno (Aulas, Questões, etc).
@@ -56,6 +56,11 @@ Use [MÓDULO PROMPT_PXX] com [FRAMEWORK FFCC] para [TEMA / AULA].
   ```text
   Use P18 para Direito Tributário.
   Gere a Matriz de Armadilhas completa da disciplina.
+  ```
+* **Relatório Interativo Hub:**
+  ```text
+  Use P19 com FFCC_JURIDICO para Aula 02 - Atos Administrativos.
+  Gere o relatório dinâmico com matrizes e recomendação de infográfico.
   ```
 
 ---
