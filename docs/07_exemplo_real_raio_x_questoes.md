@@ -109,3 +109,107 @@ Abaixo está a resposta exata e integral gerada pelo modelo:
 
 * **Regra de Ouro dos Investimentos Plurianuais (Art. 167, § 1º):** Nenhum investimento cuja execução ultrapasse um exercício financeiro pode ser iniciado sem prévia inclusão no PPA (ou lei que autorize), sob pena de **crime de responsabilidade**.
 * **Regra de Ouro do Recesso Parlamentar (Art. 57, § 2º):** A sessão legislativa de julho **não será interrompida** sem a aprovação do projeto de **LDO** (a vedação não se aplica ao PPA nem à LOA).
+---
+
+## 🎯 Parte 2: Investigação do Perfil da Banca Específica (FCPC) e Mapa Global da Disciplina
+
+Neste segundo momento, o estudante explora o acervo para além de uma única aula: ele questiona o NotebookLM sobre a **banca organizadora específica do certame (FCPC / UFC)**, buscando identificar seu estilo de cobrança, presença no acervo e bancas de perfil semelhante para ampliar o leque de treino.
+
+---
+
+### 💬 Consulta 1: Identificação da Banca e Mapeamento de Similares
+
+```text
+Qual a banca do concurso de Aracati? No banco de questões encontrou ela? Consegue traçar um perfil dela? Que bancas se aproximam mais do perfil dela?
+```
+*(No padrão N.A.G., equivale a: `Use P07 para diagnosticar a banca FCPC e mapear bancas análogas no acervo de AFO`).*
+
+#### 📑 Resposta Entregue pelo NotebookLM:
+
+A banca organizadora do concurso do ISS Aracati (Edital nº 02/2026) é a **Fundação Cearense de Pesquisa e Cultura (FCPC)**, instituição vinculada à **Universidade Federal do Ceará (UFC)**.
+
+#### 1. PRESENÇA NO BANCO DE QUESTÕES
+A FCPC está presente no acervo de questões de AFO e Direito Financeiro do curso. O banco reúne questões aplicadas pela FCPC em certames de nível superior da própria UFC, cobrando temas como créditos adicionais e estágios da despesa pública.
+
+#### 2. PERFIL ANALÍTICO DA BANCA FCPC
+* **Formato e Estilo de Prova:** Trata-se de uma banca de perfil acadêmico/universitário que adota o modelo tradicional de múltipla escolha com 5 alternativas (A, B, C, D, E).
+* **Uso de Situações Hipotéticas Práticas:** A FCPC costuma elaborar enunciados baseados em casos concretos da gestão pública (como a contratação de obras e reformas em unidades públicas, medições de contratos e necessidades emergenciais de orçamento).
+* **Cobrança Focada na Legislação Seca:** As questões exigem o domínio direto dos textos normativos fundamentais: a **Lei Federal nº 4.320/1964**, os artigos 165 a 169 da **Constituição Federal de 1988** e a **Lei de Responsabilidade Fiscal (LC nº 101/2000)**.
+* **Objetividade e Inflexão Técnica:** Exige a correta identificação de conceitos e institutos orçamentários (como modalidades de empenho, fontes de recursos para créditos adicionais e enquadramento de despesas) de forma direta e sem divagações doutrinárias.
+
+#### 3. BANCAS COM PERFIL ANÁLOGO / SEMELHANTE
+* **Bancas Universitárias e Acadêmicas (IV-UFG, UFU-MG, COMVEST-UFAM, COPESE-UFT, FUMARC):** Possuem a mesma matriz de elaboração, utilizando questões de múltipla escolha voltadas ao conhecimento prático-normativo e à aplicação da legislação em casos institucionais.
+* **Bancas Tradicionais de Lei Seca (VUNESP e FCC):** Guardam forte semelhança quanto ao rigor técnico de cobrança da Lei nº 4.320/1964 e da CF/88, testando a literalidade dos artigos e a classificação das finanças públicas em itens de múltipla escolha.
+* **Bancas Regionais de Múltipla Escolha (FUNDATEC, IDECAN e INSTITUTO AOCP):** Apresentam padrão de enunciado similar para concursos municipais e estaduais, cobrando a mecânica dos instrumentos de planejamento (PPA, LDO e LOA) e regras de execução financeira.
+
+---
+
+### 💬 Consulta 2: Mapa Global de Incidência e Previsão de Cobrança
+
+Em seguida, o estudante aprofunda para saber onde investir a maior carga horária de estudos:
+
+```text
+Então dentro da disciplina AFO você acredita que ela cobrará mais qual assunto? Como seria a cobrança?
+```
+
+#### 📑 Resposta Entregue pelo NotebookLM:
+
+O assunto de maior incidência em **Administração Financeira e Orçamentária (AFO)** para o concurso do **ISS Aracati-CE** será **Orçamento Público no Brasil (PPA, LDO e LOA sob a regência da CF/88)**, representando **59,4% do volume total de questões da matéria**, seguido pela **Lei de Responsabilidade Fiscal (34,2%)** e pelo **Ciclo Orçamentário (19,2%)**.
+
+#### 1. MAPA DE INCIDÊNCIA TEMÁTICA DA DISCIPLINA AFO
+
+Analisando a estrutura empírica da matéria em provas recentes para cargos fiscais e de controle, a distribuição percentual dos tópicos organiza-se da seguinte forma:
+
+| Posição | Macro-Assunto | Volume de Questões | Participação | Taxa Média de Acerto | Enquadramento Estratégico |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| **1º** | **Orçamento Público no Brasil (CF/88)** | 840 q | **59,4%** | 77,6% | **Garantidor de Pontos** (Inadmissível errar) |
+| **2º** | **Lei de Responsabilidade Fiscal (LC 101/00)** | 484 q | **34,2%** | 73,5% | **Pilar Obrigatório** (Normas e Limites) |
+| **3º** | **Ciclo Orçamentário e Processo** | 272 q | **19,2%** | 77,9% | **Alto Custo-Benefício** |
+| **4º** | **Despesa Pública e Classificações** | 256 q | **18,1%** | 67,9% | 🚨 **Casca de Banana** (Maior taxa de erro: 32,1%) |
+| **5º** | **Estágios da Receita e da Despesa** | 251 q | **17,7%** | 77,1% | **Mecânica Operacional** |
+| **6º** | **Programação Orçamentária e Financeira** | 121 q | **8,6%** | 75,8% | **Execução Financeira** |
+| **7º** | **Receita Pública e Classificações** | 116 q | **8,2%** | 71,8% | **Relevância Fiscal** |
+| **8º** | **Princípios Orçamentários** | 114 q | **8,1%** | 75,3% | **Dogmática e Exceções** |
+
+---
+
+#### 2. O PERFIL DE COBRANÇA DA BANCA FCPC (UNIVERSIDADE FEDERAL DO CEARÁ)
+
+A **Fundação Cearense de Pesquisa e Cultura (FCPC)** possui um perfil de elaboração **acadêmico-operacional**, caracterizado por:
+1. **Modelagem de Múltipla Escolha (A, B, C, D, E):** Questões com enunciados diretos ou estruturados sobre situações práticas da Administração Pública.
+2. **Estudos de Caso e Situações Hipotéticas Práticas:** A FCPC costuma simular problemas vivenciados por secretários municipais ou diretores de autarquias/universidades (ex: necessidade de aditamentos contratuais em reformas de prédios públicos, insuficiência de dotações em medições de obras e urgências fiscais).
+3. **Cobrança Focada na Legislação Seca Aplicada:** Combina a regra literal da **Lei nº 4.320/1964**, dos **Arts. 165 a 169 da CF/88** e da **LC nº 101/2000 (LRF)** com a correta solução jurídica para a historinha do enunciado.
+
+---
+
+#### 3. COMO CADA ASSUNTO SERÁ COBRADO NA PROVA
+
+##### A. Orçamento Público na CF/88 (PPA, LDO e LOA)
+* **Forma de Cobrança:** A banca apresentará um caso em que o Município de Aracati precisa realizar determinada política pública e perguntará em qual lei orçamentária a ação deve ser inserida.
+* **Pontos de Teste do Examinador:**
+  * **PPA (Art. 165, § 1º):** Exigência de que despesas de capital (investimentos), suas decorrentes (custeio do investimento) e programas continuados constem no PPA de forma **regionalizada**. Pegadinha: afirmar que investimentos de execução em apenas um exercício financeiro exigem PPA (somente os que ultrapassam um exercício exigem inclusão obrigatória, art. 167, § 1º).
+  * **LDO (Art. 165, § 2º):** Foco na seleção de **metas e prioridades anuais**, orientação da LOA, diretrizes de política fiscal e regras sobre alterações na legislação tributária. Pegadinha: afirmar que a LDO cria ou aumenta tributos (ela apenas dispõe sobre as alterações que ocorrerão por lei própria).
+  * **LOA (Art. 165, § 5º):** Estrutura da tripartição orçamentária (**Fiscal, Seguridade e Investimento das estatais**). Exigência de que as **estatais dependentes** integrem o Orçamento Fiscal ou da Seguridade Social, enquanto o Orçamento de Investimento é restrito às **estatais independentes** (e cobre apenas despesas de investimento).
+  * **Princípio da Exclusividade e Exceções (Art. 165, § 8º):** A LOA não pode conter matéria estranha, **salvo autorização para abertura de créditos suplementares e contratação de operações de crédito (inclusive ARO)**.
+  * **Prazos do ADCT (Art. 35, § 2º):** PPA e LOA (envio até 31/08; devolução até 22/12) e LDO (envio até 15/04; devolução até 17/07). Regra do recesso: o recesso parlamentar de julho só é vedado caso a **LDO** não seja aprovada.
+
+##### B. Créditos Adicionais e Lei nº 4.320/1964 (Foco Prático FCPC)
+* **Forma de Cobrança:** A FCPC elaborará um estudo de caso apresentando um órgão municipal que iniciou a execução de um contrato e constatou a necessidade de ajustar o orçamento.
+* **Pontos de Teste do Examinador:**
+  * **Tipologia:** Diferenciar se a situação exige **Crédito Suplementar** (reforço de dotação preexistente insuficiente), **Crédito Especial** (criação de dotação para despesa sem previsão orçamentária) ou **Crédito Extraordinário** (despesas imprevisíveis e urgentes, como calamidade pública ou guerra, aberto por decreto/medida provisória).
+  * **Requisitos e Fontes de Custeio (Art. 43 da Lei 4.320/64):** Identificação das fontes disponíveis para abertura: **Superávit Financeiro** do balanço patrimonial do exercício anterior, **Excesso de Arrecadação** do exercício em curso, **Anulação Parcial ou Total de Dotações** e **Operações de Crédito** autorizadas.
+
+##### C. Lei de Responsabilidade Fiscal (LC nº 101/2000)
+* **Forma de Cobrança:** Questões situacionais envolvendo os mecanismos de ajuste e transparência fiscal do município.
+* **Pontos de Teste do Examinador:**
+  * **Anexos da LDO (Art. 4º da LRF):** O candidato deve separar o **Anexo de Metas Fiscais** (fixação de metas trienais de receita, despesa, resultado primário, nominal e montante da dívida) do **Anexo de Riscos Fiscais** (avaliação de passivos contingentes e eventos incertos).
+  * **Limitação de Empenho (Contingenciamento - Art. 9º):** Caso a arrecadação de receitas comprometa o cumprimento das metas do AMF ao final de um bimestre, os Poderes devem promover a limitação de empenho nos 30 dias seguintes segundo os critérios da LDO.
+  * **Despesa com Pessoal (Arts. 18 a 23):** Conceito da Receita Corrente Líquida (RCL), limites percentuais para o município (54% Executivo, 6% Legislativo = 60% Total) e prazos de recondução em caso de estouro do limite máximo.
+
+##### D. Despesa Pública e Suas Classificações (O Divisor de Águas)
+* **Forma de Cobrança:** Questões de enquadramento contábil e orçamentário de gastos municipais.
+* **Pontos de Teste do Examinador:**
+  * **Categoria Econômica (Despesas Correntes vs. Despesas de Capital):** Diferença entre despesas de custeio/pessoal e investimentos públicos.
+  * **Investimentos vs. Inversões Financeiras (A Pegadinha Clássica):** 
+    * **Investimentos:** Obras públicas, aquisição de instalações e equipamentos novos (que geram expansão da capacidade produtiva).
+    * **Inversões Financeiras:** Aquisição de imóveis ou bens **já em uso**, aquisição de títulos representativos de capital de empresas já em funcionamento e concessão de empréstimos.
