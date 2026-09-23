@@ -1,5 +1,5 @@
-# 🏛️ Ecossistema N.A.G. (Narrative Anchor & Guide) para Concursos Públicos
-### Metodologia Aberta de Engenharia de Estudos, Ingestão de Materiais e IA Fundamentada (NotebookLM + Método MIT + Anki)
+# 🏛️ Ecossistema N.A.G. (Núcleo de Aprendizagem Guiada) para Concursos Públicos
+### Metodologia Aberta de Engenharia de Estudos, Ingestão de Materiais e IA Fundamentada (NotebookLM + Gemini Estudantes + Método MIT + Anki)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-brightgreen.svg)](https://www.python.org/)
@@ -73,7 +73,7 @@ Existe uma separação clara entre a **Metodologia Cognitiva** e os **Acelerador
 
 ## 📌 O Que é o Ecossistema N.A.G.?
 
-O **Ecossistema N.A.G. (Narrative Anchor & Guide)** é um framework metodológico e técnico desenvolvido para estudantes de **concursos públicos de alta performance** (Carreiras Fiscais, Controle, Jurídicas, Policiais, TI e Dados).
+O **Ecossistema N.A.G. (Núcleo de Aprendizagem Guiada)** é um framework metodológico e técnico desenvolvido para estudantes de **concursos públicos de alta performance** (Carreiras Fiscais, Controle, Jurídicas, Policiais, TI e Dados).
 
 A metodologia combate os dois maiores gargalos da preparação moderna:
 1. **Sobrecarga Operacional e Fragmentação:** O tempo perdido baixando, renomeando, procurando e organizando centenas de PDFs, videoaulas e questões.
@@ -252,9 +252,9 @@ A transparência, a honestidade intelectual e o respeito à comunidade open-sour
 
 1. **Motor de Automação e CLI Python (`notebooklm-py`):**
    * A biblioteca técnica utilizada para automação, pipelines de terminal, extração de metadados e orquestração programática é o [`teng-lin/notebooklm-py`](https://github.com/teng-lin/notebooklm-py), desenvolvido por Teng Lin. É essa ferramenta que viabiliza o comando `notebooklm` no terminal e a integração fluida sem dependência exclusiva da interface web.
-2. **A Inspiração Conceitual N.A.G. (Narrative Anchor & Guide):**
-   * O conceito embrionário de utilizar uma âncora narrativa para manter fidelidade estrita de comportamento em LLMs foi inspirado no projeto aberto [`lrdmora/N_A_G-Narrative-Anchor-and-Guide`](https://github.com/lrdmora/N_A_G-Narrative-Anchor-and-Guide).
-   * O **Ecossistema N.A.G. para Concursos Públicos** adaptou, expandiu e especializou essa mecânica para a preparação de certames de alta complexidade (carreiras fiscais, controle e jurídicas), criando as 4 lentes analíticas por grande área (`FFCC Core`), os 19 Prompts de Elite e a integração com o ciclo ultradiano do **Método MIT**.
+2. **A Linhagem Conceitual da Sigla N.A.G.:**
+   * A inspiração inicial para a sigla e para o conceito de ancorar comportamento em LLMs veio do projeto aberto [`lrdmora/N_A_G-Narrative-Anchor-and-Guide`](https://github.com/lrdmora/N_A_G-Narrative-Anchor-and-Guide).
+   * Para a realidade dos concursos brasileiros, o ecossistema refundou e ressignificou o conceito como **Núcleo de Aprendizagem Guiada (N.A.G.)**, conectando-se diretamente à proposta de *Guided Learning* do Google Gemini Estudantes, com as 4 lentes analíticas por grande área (`FFCC Core`), os 19 Prompts de Elite e o ciclo ultradiano do **Método MIT**.
 3. **Integrações com Claude e Servidores MCP:**
    * Reconhecimento a projetos da comunidade como [`m4yk3ldev/notebooklm-mcp`](https://github.com/m4yk3ldev/notebooklm-mcp) e aos experimentos de automação de Julian Goldie, que demonstraram os primeiros caminhos para conectar clientes externos e servidores MCP ao ecossistema do NotebookLM.
 4. **Comunidades, Validação Coletiva e Pesquisa Aberta:**

@@ -8,7 +8,7 @@ version: 2.0
 # ⚙️ GUIDE_CombiningPrompts
 
 > [!IMPORTANT] IDENTIDADE DA DIRETRIZ
-> Você agora atua sob a arquitetura autônoma N.A.G. (Narrative Anchor & Guide).
+> Você agora atua sob a arquitetura autônoma N.A.G. (Núcleo de Aprendizagem Guiada).
 > Sempre que a expressão "GUIDE_" for invocada no prompt do chat, execute a seguinte sequência mecânica ininterrupta:
 
 <sequencia_operacional>
