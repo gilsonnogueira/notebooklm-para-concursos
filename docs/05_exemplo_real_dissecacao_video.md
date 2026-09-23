@@ -1,32 +1,53 @@
-# 🔬 Demonstração Real: Dissecação Técnica de Videoaula no NotebookLM
+# 🔬 Caso Real de Estudo: Preparação de AFO (ISS Aracati) no NotebookLM
 
-Este exemplo demonstra como o **Google NotebookLM**, alimentado pela arquitetura de fontes do **Ecossistema N.A.G.**, processa as transcrições das videoaulas e os PDFs de apoio para dissecar um tema complexo com alta densidade, citações literais da Lei Seca, jurisprudência do STF e análise de questões reais de concurso.
+Este documento apresenta um **estudo de caso real** mostrando a esteira completa do **Ecossistema N.A.G.** aplicada na preparação para o concurso de **Auditor Fiscal (ISS Aracati)**, na disciplina de **Administração Financeira e Orçamentária (AFO)**.
 
 ---
 
-## 📸 A Interface em Ação (Caderno Real de AFO)
+## 🎯 A Jornada: Da Ingestão à Dissecação Socrática
 
-Abaixo vemos a interface do NotebookLM com o caderno temático de **Administração Financeira e Orçamentária (AFO)**:
+Para transformar o curso do cursinho em uma base de conhecimento ativa sem sobrecarga cognitiva:
+
+1. **Estruturação por Aulas no Drive:** Os materiais foram organizados por tópicos do edital (`Aula 00`, `Aula 01`, etc.).
+2. **Seleção Inteligente de Fontes:** 
+   * Subiu-se o **PDF Original** da aula (que já contém a teoria completa e dispensa o Simplificado/Marcação).
+   * Os **Slides** foram compilados em um PDF único por aula (`Aula XX - Slides.pdf`).
+   * As falas das videoaulas foram transcritas e salvas em Markdown (`Aula XX - Transcrição.md`).
+3. **Criação do Caderno e Vínculo via Cloud ID:** O caderno temático foi criado no NotebookLM (`Administração Financeira e Orçamentária - ISS Aracati`) e as fontes foram conectadas diretamente pelo Google Drive Desktop.
+4. **Catálogo de Regras:** O arquivo `000_MASTER_INDEX.md` foi adicionado nas fontes para guiar o roteamento dos prompts.
+
+---
+
+## 📸 A Interface em Ação (Caderno Real no NotebookLM)
+
+Abaixo vemos a interface do caderno em produção:
 
 ![Interface do Google NotebookLM dissecando videoaula](assets/exemplo_notebooklm_dissecacao.png)
 
-### 📂 Como as Fontes Foram Estruturadas neste Caderno:
-No painel lateral esquerdo, as fontes foram organizadas por aula:
-* `000_MASTER_INDEX.md` (Catálogo de Prompts e Roteador)
+### 📂 Estrutura Real de Fontes no Painel Lateral:
+Observe no painel esquerdo a taxonomia padronizada das fontes:
+* `000_MASTER_INDEX.md` (Catálogo Geral de Prompts)
 * `Aula 00 - Original.pdf` (Teoria Completa)
-* `Aula 00 - Slides.pdf` (Compilado dos Slides)
+* `Aula 00 - Slides.pdf` (Compilado de Slides da Aula 00)
 * `Aula 00 - Mapas Mentais.pdf`
-* `Aula 00 - Transcrição.md` (Todas as falas das videoaulas transcritas via Whisper)
-* `Aula 01 - Original.pdf`, `Aula 01 - Transcrição.md`, etc.
+* `Aula 00 - Transcrição.md` (Transcrições integrais dos blocos de vídeo)
+* `Aula 01 - Original.pdf`
+* `Aula 01 - Slides.pdf`
+* `Aula 01 - Transcrição.md`
+* *(e as aulas subsequentes organizadas com a mesma consistência)*
 
 ---
 
-## 💬 A Pergunta Enviada no Chat
+## 💬 A Consulta Disparada no Chat
+
+O estudante invocou a análise cirúrgica de um bloco específico de aula:
 > *"Disseque tecnicamente o Vídeo 02 sobre Planejamento e Orçamento na CF (PPA, LDO e LOA)."*
 
 ---
 
-## 📑 Resposta Completa Gerada pelo NotebookLM (Exemplo Real)
+## 📑 Resposta Técnica Completa Gerada pelo NotebookLM
+
+Abaixo está a resposta na íntegra entregue pelo modelo. Repare no nível de detalhamento: **esquematização visual da tríade, tabela comparativa com prazos e funções constitucionais, dispositivos literais da Lei Seca, jurisprudência do STF, armadilhas típicas da FGV/Cebraspe e resolução das questões da aula com justificativa de cada item**:
 
 # DISSECAÇÃO TÉCNICA DO VÍDEO 02: PLANEJAMENTO E ORÇAMENTO NA CF (PPA, LDO E LOA)
 
