@@ -15,7 +15,7 @@ gantt
     section Bússola
     Passo 4.0: Raio-X da Banca (P07)             :0, 5
     section Teoria
-    Bloco 1: Dissecação de Modelos (P01 + FFCC)   :5, 35
+    Bloco 1: Dissecação de Modelos (P01 + Skill) :5, 35
     section Pausa 1
     Pausa Fisiológica (Sem Telas)                 :35, 40
     section Síntese
@@ -43,12 +43,12 @@ Antes de abrir qualquer vídeo ou ler a primeira página do PDF:
 
 ---
 
-### 📖 Bloco 1 (00 a 30 min): Fundamentos & Modelos Mentais (`P01` + `FFCC`)
+### 📖 Bloco 1 (00 a 30 min): Fundamentos & Modelos Mentais (`P01` + `Skill da Disciplina`)
 * **Comando:**
-  ```text
-  Use P01 com FFCC_[AREA] para a Aula XX.
-  ```
-* **Objetivo:** O NotebookLM extrai a árvore de decisão lógica, os requisitos cumulativos e a Lei Seca esquematizada em **tabelas nativas GFM**.
+   ```text
+   Use P01 com a Skill de [Disciplina] para a Aula XX.
+   ```
+* **Objetivo:** O NotebookLM extrai a árvore de decisão lógica, os requisitos cumulativos e a Lei Seca esquematizada em **tabelas nativas GFM**, ancorado no DNA da matéria via [book-to-skill](https://github.com/virgiliojr94/book-to-skill.git).
 * **Regra de Ouro:** **PROIBIDO copiar e colar textos longos em cadernos de resumo.** O foco deste bloco é leitura dinâmica, compreensão dos 5 pilares estruturais e conexão dos conceitos.
 
 ☕ *Pausa Fisiológica (5 minutos): Levante-se, beba água e afaste-se 100% de telas. Deixe a memória de trabalho descomprimir.*

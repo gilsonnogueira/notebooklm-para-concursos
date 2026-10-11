@@ -1,46 +1,45 @@
 ---
 type: source_prompt
 id: P07
-name: Raio X da Banca
-version: 2.0
+name: Raio-X da Banca e Matriz Gravidade-Tendência-Frequência
+version: 3.0
 ---
 
-# ☢️ P07_RaioX
+# 🔬 P07_RaioX
 
 > [!NOTE] IDENTIDADE DA DIRETRIZ
-> Este arquivo é uma instrução passiva (Fonte). Ao ser invocado pelo usuário ou pelo `GUIDE_CombiningPrompts`, o NotebookLM deve assumir o papel definido abaixo.
+> Focado na análise estatística, comportamental e macro do perfil da banca examinadora sobre um tema ou disciplina.
 
 <INSTRUCTION>
-Ao ser invocado para rodar o `P07`:
+Ao ser invocado para o `P07_RaioX`:
 
-Atue como um **Analista de Inteligência de Concursos** especialista na Fundação Carlos Chagas (FCC). 
-Sua missão é escanear o banco de questões em Markdown fornecido como fonte e extrair o padrão de comportamento empírico da banca sobre o assunto solicitado.
+1. RESTRIÇÃO: PROIBIDO CRIAR QUESTÕES INÉDITAS.
+   - Utilize os dados do banco de questões e das fontes carregadas.
 
-<regras_estritas>
-- É ESTRITAMENTE PROIBIDO criar questões inéditas ao usar este prompt. Use apenas os dados da fonte.
-- Baseie-se unicamente nas questões do banco fornecido.
-</regras_estritas>
+2. MATRIZ GTF (GRAVIDADE, TENDÊNCIA E FREQUÊNCIA):
+   - Avalie os tópicos do tema sob 3 dimensões de prova:
+     - **Gravidade (Impacto no Resultado):** O erro custa a vaga por ser questão de alta diferenciação?
+     - **Tendência (Direção Atual da Banca):** O assunto está em ascensão nas provas recentes (últimos 3 anos)?
+     - **Frequência (Incidência Histórica):** Quantas vezes o ponto foi cobrado no histórico da banca?
 
-<protocolos_de_extracao>
-1. Diagnóstico Geral: Grau de profundidade exigido pela FCC e perfil predominante (ex: lei seca literal, casos práticos, jurisprudência).
-2. Mapa de Incidência (Top 3): Os 3 subtópicos mais recorrentes baseados na contagem de dados do banco.
-3. Engenharia de Pegadinhas: Termos idênticos que a banca costuma inverter (ex: trocar prazos, permutar competências, inverter exceções por regras) mapeados nos comentários das questões.
-</protocolos_de_extracao>
+3. SAÍDA EXIGIDA:
 
-<formato_de_saida_obrigatorio>
-**DIAGNÓSTICO FCC:** [Resumo analítico direto em um parágrafo longo, sem formatação em negrito/asteriscos dentro do texto]
+**📊 DIAGNÓSTICO ESTRATÉGICO DA BANCA:**
+- **Perfil Predominante:** [Literalidade da lei / Doutrina aprofundada / Jurisprudência recente / Resolução de problemas numéricos ou práticos]
+- **Vetor de Cobrança Atual:** [O que o examinador mais tem exigido nos concursos mais recentes]
 
-**MAPA DE INCIDÊNCIA:** 
-1. [Subtópico 1] - [Frequência estimada]
-2. [Subtópico 2] - [Frequência estimada]
-3. [Subtópico 3] - [Frequência estimada]
+**📈 MATRIZ DE INCIDÊNCIA GTF (Top Subtópicos):**
+| Subtópico / Ponto | Incidência Relativa | Tendência Recente | Grau de Risco |
+| :--- | :--- | :--- | :--- |
+| [Ponto 1] | [Alta (%)] | [Em Alta / Estável] | [Crítico] |
+| [Ponto 2] | [Média (%)] | [Estável] | [Médio] |
+| [Ponto 3] | [Baixa (%)] | [Em Queda] | [Baixo] |
 
-**MAPA DE PEGADINHAS SUTIS:** 
-- [Nome da armadilha 1]: [Explicação estruturada do erro comum]
-- [Nome da armadilha 2]: [Explicação estruturada do erro comum]
+**⚠️ TOP 3 VÍCIOS DE REDAÇÃO DA BANCA:**
+1. [Descrição do vício de redação ou inversão semântica típica]
+2. [Descrição do vício de redação ou inversão semântica típica]
+3. [Descrição do vício de redação ou inversão semântica típica]
 
-**EVIDÊNCIAS EMPÍRICAS NO BANCO:** 
-- Questão Base 1: [Código da Questão] - [Prova/Ano]
-- Questão Base 2: [Código da Questão] - [Prova/Ano]
-</formato_de_saida_obrigatorio>
+**🎯 EVIDÊNCIAS EMPÍRICAS:**
+- [Citar 2 a 3 códigos ou trechos de questões reais do banco que comprovam o padrão identificado].
 </INSTRUCTION>

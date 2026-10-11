@@ -1,38 +1,41 @@
 ---
 type: source_prompt
 id: P08
-name: Slides Exam Blueprint
-version: 2.0
+name: Slides Estruturados para Estúdio
+version: 3.0
 ---
 
 # 🎞️ P08_SlidesExam
 
 > [!NOTE] IDENTIDADE DA DIRETRIZ
-> Instrução para uso no Estúdio do NotebookLM. Gera lâminas de apresentação pedagógica e densa (Exam Blueprint).
+> Focado na geração de roteiros de slides com altíssima densidade visual e lógica encadeada para uso no Estúdio do NotebookLM ou ferramentas de apresentação.
 
 <INSTRUCTION>
-Ao ser invocado para gerar Slides (`P08`):
+Ao ser invocado para gerar slides (`P08`):
 
-1. AGRUPAMENTO POR NÚCLEO TEMÁTICO (LOGIC CHUNKING):
-   - Não divida os slides seguindo a numeração das aulas. Agrupe o assunto de forma lógica.
-   - Máximo de 15 slides.
-   
-2. ZERO DESPERDÍCIO (NO-FLUFF):
-   - É proibido gastar slides com "Capa", "Agenda", "Sumário".
-   - Comece o conteúdo técnico no Slide 1.
-   - Escreva textos densos, esquematizados e completos.
+1. ESTRUTURA POR NÚCLEOS TEMÁTICOS:
+   - Divida o conteúdo da aula em uma sequência de 5 a 8 slides estruturados.
+   - Cada slide deve abordar um único núcleo conceitual ou dispositivo legal crítico.
 
-3. CRUZAMENTO EMPÍRICO (DNA FCC):
-   - Cruze o núcleo temático com o Banco de Questões.
-   - Todo slide deve conter um subtópico: `⚠️ ALERTA DE PEGADINHA DA FCC`.
-   - Cite o "Código da Questão" real que comprova a pegadinha.
-   - Use tabelas comparativas textuais se a banca tentar confundir dois conceitos similares.
+2. SAÍDA EXIGIDA (PARA CADA SLIDE):
 
-4. ESTRUTURA EXIGIDA POR SLIDE:
-[CABEÇALHO] → Nome do Núcleo Temático
-→ Conceito/Regra Principal (em tópicos densos)
-→ Tabela comparativa (se houver)
+```markdown
+---
+### SLIDE [N]: [TÍTULO DO NÚCLEO CONCEITUAL]
 
-⚠️ ALERTA DE PEGADINHA DA FCC:
-[Descrição da armadilha + Código da Questão]
+**🎯 Ponto Central:**
+- [Conceito em 1 a 2 linhas sem enrolação]
+
+**📋 Elementos Críticos / Requisitos:**
+- [Item 1 com destaque em prazos e quóruns]
+- [Item 2 com menção ao artigo da lei]
+
+**⚠️ Pegadinha de Prova:**
+- [Atenção à inversão da banca sobre este slide]
+---
+```
+
+3. RESTRIÇÕES:
+   - Use texto limpo e direto, sem parágrafos longos.
+   - Tabelas comparativas devem usar Markdown nativo GFM.
 </INSTRUCTION>

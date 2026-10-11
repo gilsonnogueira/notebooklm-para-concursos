@@ -1,48 +1,58 @@
 ---
 type: index
 id: MASTER
-name: Tabela de Roteamento
-version: 4.0
+name: Tabela de Roteamento Central N.A.G.
+version: 5.0
 ---
 
 # 🗺️ 000_MASTER_INDEX
 
 > [!NOTE]
-> Este arquivo é a espinha dorsal do ecossistema N.A.G. Ele informa ao NotebookLM quais módulos operacionais existem ("P01" a "P19") e para que servem.
+> Este arquivo é a espinha dorsal de roteamento do ecossistema N.A.G. Ele informa ao NotebookLM e ao agente quais módulos operacionais existem (`P01` a `P20`), a finalidade de cada um e como acoplar as **Skills de Disciplina** no padrão [book-to-skill](https://github.com/virgiliojr94/book-to-skill.git).
 
-## Catálogo de Fontes Ativas (Prompts)
+---
+
+## 🧭 Catálogo de Prompts Operacionais Ativos
 
 | ID | Arquivo | Finalidade Cognitiva |
 |---|---|---|
-| **P01** | `PROMPT_P01_DetalharAula.md` | Dissecação extrema de uma aula (teoria, transcrição, slides). Resumo denso. |
-| **P02** | `PROMPT_P02_AnalisePreditiva.md` | Mapeamento de armadilhas e pegadinhas reais cruzadas com a banca examinadora. |
-| **P03** | `PROMPT_P03_GarimpoBizus.md` | Extração de Mnemônicos e "pulos do gato" dos comentários dos alunos. |
-| **P04** | `PROMPT_P04_TutorTecnico.md` | Resolução de dúvidas profundas. Aprofundamento teórico denso. |
-| **P05** | `PROMPT_P05_SimuladorQuestoes.md` | Geração de questões inéditas simulando o DNA e as armadilhas da banca. |
-| **P06** | `PROMPT_P06_ResolucaoCirurgica.md` | Dissecação passo-a-passo de uma questão específica (análise item a item). |
-| **P07** | `PROMPT_P07_RaioX.md` | Análise macro do comportamento da banca sobre um assunto (incidência). |
-| **P08** | `PROMPT_P08_SlidesExam.md` | Geração de conteúdo para slides por núcleo temático (Estúdio). |
-| **P09** | `PROMPT_P09_Flashcards.md` | Geração de Flashcards atômicos com alta restrição de sintaxe (Estúdio). |
-| **P10** | `PROMPT_P10_QuizBanca.md` | Geração de Quiz interativo estilo examinador sênior com dicas (Estúdio). |
-| **P11** | `PROMPT_P11_Markmap.md` | Geração de formato sintático para exportar Mapas Mentais ao Obsidian. |
-| **P12** | `PROMPT_P12_AulaGuiadaMapa.md` | Gera um roteiro de aula em áudio (fluido) expandindo tópicos de um Mapa Mental. |
-| **P13** | `PROMPT_P13_MotorCognitivo.md` | Motor Cognitivo e Metodológico de Alta Performance (Zero ruído, BLUF, Evals). |
-| **P14** | `PROMPT_P14_NarrarLei.md` | Geração de Roteiro de Áudio Fluido (TTS Universal) de Lei Seca e Comentários. |
-| **P15** | `PROMPT_P15_QuizCompilado.md` | Extração e geração de Quiz no Estúdio a partir de aulões/compilados por aula (verbatim). |
-| **P16** | `PROMPT_P16_FeynmanReverso.md` | Feynman Reverso e Auditoria Socrática Rígida (Método MIT — Passos 2 e 4). |
-| **P17** | `PROMPT_P17_KitConsolidacao.md` | Kit Oficial de Repasse e Consolidação da Sessão de 90m (Folha Resumo, Tabela de Erros, Anki). |
-| **P18** | `PROMPT_P18_SintesePreditiva.md` | Síntese Preditiva Acumulada da Disciplina (Matriz de Armadilhas da Reta Final). |
-| **P19** | `PROMPT_P19_RelatorioInterativo.md` | Hub de Relatório Interativo Adaptativo (Síntese Teórica com Infográficos, Quizzes e Mapas do Estúdio). |
+| **P01** | `PROMPT_P01_DetalharAula.md` | Dissecação e fichamento exaustivo da aula (Pareto 80/20, Analogia Operacional, Tabela de Confusão e Lei Seca). |
+| **P02** | `PROMPT_P02_AnalisePreditiva.md` | Engenharia reversa de distratores, mapeamento de vetores de distorção e índice de vulnerabilidade da banca. |
+| **P03** | `PROMPT_P03_GarimpoBizus.md` | Extração de Mnemônicos e bizus com pergunta-âncora de prova e gatilho de aplicação imediata. |
+| **P04** | `PROMPT_P04_TutorTecnico.md` | Tutoria técnica profunda, desconstrução em primeiros princípios e contraste de correntes/jurisprudência. |
+| **P05** | `PROMPT_P05_SimuladorQuestoes.md` | Geração de questões inéditas simulando o DNA da banca com calibragem cirúrgica de distratores. |
+| **P06** | `PROMPT_P06_ResolucaoCirurgica.md` | Dissecação passo a passo com diagnóstico de causa raiz do erro e regra de ouro inviolável. |
+| **P07** | `PROMPT_P07_RaioX.md` | Análise macro do comportamento da banca via Matriz Gravidade-Tendência-Frequência (GTF). |
+| **P08** | `PROMPT_P08_SlidesExam.md` | Geração de roteiro de slides por núcleos conceituais para uso no Estúdio. |
+| **P09** | `PROMPT_P09_Flashcards.md` | Geração de Flashcards atômicos (1 fato = 1 card) com suporte a oclusão Cloze `[...]` e exportação Anki. |
+| **P10** | `PROMPT_P10_QuizBanca.md` | Quiz interativo em 3 níveis progressivos (Literalidade, Doutrina, Caso Prático/Jurisprudência). |
+| **P11** | `PROMPT_P11_Markmap.md` | Geração de sintaxe rigorosa de Mapas Mentais Markmap / Obsidian Mindmap. |
+| **P12** | `PROMPT_P12_AulaGuiadaMapa.md` | Roteiro de aula narrada em áudio fluido expandindo a hierarquia de um Mapa Mental. |
+| **P13** | `PROMPT_P13_MotorCognitivo.md` | Motor cognitivo central N.A.G. (Zero ruído, BLUF absoluto e crivos de autoavaliação/evals). |
+| **P14** | `PROMPT_P14_NarrarLei.md` | Roteiro de áudio falado (TTS) para leitura dinâmica de lei seca comentada. |
+| **P15** | `PROMPT_P15_QuizCompilado.md` | Extração de questões diretamente de exemplos orais de aulões e revisões. |
+| **P16** | `PROMPT_P16_FeynmanReverso.md` | Arguição socrática rigorosa, teste de casos limites e quebra de ilusão de competência (Método MIT). |
+| **P17** | `PROMPT_P17_KitConsolidacao.md` | Kit triplo de fechamento da sessão de 90 min (One-Pager, Matriz de Erros e Top 5 Cards Cloze). |
+| **P18** | `PROMPT_P18_SintesePreditiva.md` | Síntese preditiva global acumulada da matéria com Matriz de Armadilhas para reta final. |
+| **P19** | `PROMPT_P19_RelatorioInterativo.md` | Hub de Relatório Interativo com síntese, tabelas GFM, mapas mentais e quizzes embutidos. |
+| **P20** | `PROMPT_P20_CadernoTatico.md` | Dashboard Estratégico Executivo All-in-One por aula com KPIs, Heatmap e metadados empíricos. |
 
-## Frameworks Analíticos Especializados (FFCC Core)
-Espinhas dorsais analíticas em 4 quadrantes (Forma, Função, Conteúdo, Contexto) específicas por grande área:
-- **Tributário e Aduaneiro**: `FRAMEWORK_FFCC_TRIBUTARIO_ADUANEIRO.md` (Direito Tributário, Legislação Tributária e Aduaneira, Reforma Tributária).
-- **Contábil e Custos**: `FRAMEWORK_FFCC_CONTABIL.md` (Contabilidade Geral, Avançada, Custos e Pronunciamentos CPC).
-- **Ciências Exatas**: `FRAMEWORK_FFCC_EXATAS.md` (Raciocínio Lógico-Matemático, Matemática Financeira e Estatística).
-- **Fluência em Dados**: `FRAMEWORK_FFCC_DADOS.md` (SQL, Modelagem Relacional/Dimensional, Big Data, Machine Learning e Governança).
-- **Jurídico Clássico**: `FRAMEWORK_FFCC_JURIDICO.md` (Direito Constitucional, Administrativo, Previdenciário e Servidores Públicos).
-- **Gestão e Governança**: `FRAMEWORK_FFCC_GESTAO.md` (Administração Geral, Pública, Gestão de Processos e Materiais).
+---
 
-## Guias e Orquestração
-- **Guia de Mapas**: `Guia_Criacao_Mapas_Mentais.md` - Arquiteto de Mapas Mentais (Markmap / Obsidian).
-- **GUIDE**: `GUIDE_CombiningPrompts.md` - Motor de combinação. Invocado quando múltiplos módulos são acionados simultaneamente.
+## 🏛️ Skills Especializadas de Disciplina (Padrão Book-to-Skill)
+
+> **Créditos Metodológicos:** A arquitetura de substituição dos antigos frameworks estáticos (FFCC) por Skills atômicas por matéria é baseada no projeto [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill.git).
+
+Em vez de frameworks teóricos rígidos, o sistema opera com **Skills Dinâmicas da Disciplina**. Cada matéria possui seu próprio conjunto modular (`SKILL.md`, `cheatsheet.md`, `patterns.md`, `glossary.md` e `chapters/`).
+
+### Invocação em Duas Camadas:
+```text
+Use [PROMPT_PXX] com a [SKILL_<DISCIPLINA>] para [TÓPICO / CONCEITO].
+```
+
+---
+
+## ⚙️ Guias de Orquestração
+- **GUIDE Central:** `GUIDE_CombiningPrompts.md` — Motor de combinação em duas camadas.
+- **Sistema Unificado:** `SYSTEM_PROMPT.md` — Instruções mestras para colar no NotebookLM.
+- **Persona Enxuta:** `PERSONA_NOTEBOOKLM.txt` — Instrução compacta para cadernos com fonte indexada.

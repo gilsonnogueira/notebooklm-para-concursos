@@ -1,69 +1,45 @@
 ---
 type: source_prompt
 id: P17
-name: Kit de Repasse e Consolidação (Método MIT)
-version: 1.0
+name: Kit Oficial de Consolidação da Sessão (Método MIT)
+version: 4.0
 ---
 
-# 📦 P17_KitConsolidacao (Método MIT — Fechamento da Sessão de 90 Minutos)
+# 📦 P17_KitConsolidacao
 
 > [!NOTE] IDENTIDADE DA DIRETRIZ
-> Este arquivo é acionado nos últimos 10 minutos da sessão ultradiana (minuto 80 a 90). Ele audita todo o histórico da sessão de estudos e gera o **Kit Oficial de Repasse e Consolidação**, desenhado para blindar o conhecimento contra a Curva do Esquecimento de Ebbinghaus e alimentar sistemas de repetição espaçada (Anki).
+> Focado no fechamento de sessões de estudo de 90 minutos (Método MIT), gerando um kit triplo de consolidação imediata: Folha Resumo de 1 Página (*One-Pager*), Matriz de Pontos Críticos e Top 5 Flashcards de Oclusão (Cloze).
 
 <INSTRUCTION>
-Ao ser invocado pelo comando `P17` ou `P17 [Tópico/Aula]`:
+Ao ser invocado para o `P17_KitConsolidacao` para a aula ou sessão atual:
 
-Varra todo o histórico da sessão recente e as fontes do caderno para produzir ESTRITAMENTE os 5 artefatos estruturados abaixo, sem saudações e sem introduções prolixas:
-
----
-
-## 📄 ARTEFATO 1: FOLHA RESUMO CIRÚRGICA (Máx. 1 Página)
-- **PROIBIDO GERAR RESUMO GENÉRICO:** Sintetize unicamente:
-  - Os **5 Conceitos Centrais** que sustentam o tema.
-  - As lacunas exatas e falhas conceituais que o aluno cometeu durante o teste de Feynman (`P16`) ou nas questões de raciocínio.
-  - As regras de exceção e prazos que não podem ser esquecidos.
+Gere OBRIGATORIAMENTE os 3 módulos abaixo:
 
 ---
 
-## 📊 ARTEFATO 2: TABELA DE ERROS TÍPICOS E CONFUSÃO COGNITIVA
-Estruture uma tabela Markdown comparando o erro com a regra correta:
-
-| Erro / Pegadinha Típica da Banca | Conduta / Interpretação Correta | Fundamentação Legal / Jurisprudencial | Fonte no Caderno (Página / Vídeo) |
-|---|---|---|---|
-| [O que o candidato errou ou o que a banca induz] | [A regra exata e aplicação correta] | [Art. X da Lei Y ou Súmula Z] | [Ex: Aula 02 - Original.pdf, p. 18] |
+### MÓDULO 1: FOLHA RESUMO DE 1 PÁGINA (ONE-PAGER DENSO)
+- **Tema:** [Nome da Aula / Assunto]
+- **Núcleo Estruturante (BLUF):** 3 a 4 linhas sintetizando a tese jurídica, contábil ou técnica central.
+- **Regras de Ouro & Prazos Críticos:** Tabela Markdown nativa resumindo os requisitos, prazos e sanções aplicáveis.
 
 ---
 
-## 🎯 ARTEFATO 3: 10 QUESTÕES DE REVISÃO ALVO (Prática Intercalada)
-- Gere 10 novas questões curtas e densas (estilo Certo/Errado ou Múltipla Escolha com foco cirúrgico), ordenadas por dificuldade crescente (Básico → Intermediário → Especialista).
-- As questões DEVEM focar exclusivamente nos calcanhares de Aquiles detectados na sessão.
-- Forneça o gabarito comentado apenas ao final de todas as 10 questões, em bloco colapsado ou recuado.
+### MÓDULO 2: MATRIZ DE ERROS POTENCIAIS & CASINHAS DE BANANA
+Tabela Markdown nativa mapeando os 3 maiores riscos de erro em prova sobre este assunto:
+| O que a Banca Afirma | A Realidade Jurídica / Técnica | Onde está a Pegadinha |
+| :--- | :--- | :--- |
+| [Afirmação falsa típica] | [A regra correta com dispositivo legal] | [A inversão semântica ou troca de prazos] |
 
 ---
 
-## 📅 ARTEFATO 4: CRONOGRAMA DE 7 A 30 DIAS (Repetição Espaçada / FSRS)
-Indique a cadência ótima de reativação neural com base na retenção desejada (10% a 20% do horizonte até a prova):
+### MÓDULO 3: TOP 5 FLASHCARDS DE OCLUSÃO (ANKI CLOZE)
+5 cartões atômicos de alta fricção neural para importação imediata:
 
-- **D+1 (Amanhã - 10 min):** Resolver as 5 primeiras questões do Artefato 3 sem olhar notas.
-- **D+3 (3 dias - 15 min):** Explicar os 5 conceitos centrais em voz alta (Feynman puro) e checar a Tabela de Erros.
-- **D+7 (7 dias - 20 min):** Resolver as 5 questões restantes do Artefato 3 e refazer questões da banca no QConcursos.
-- **D+21 (Revisão Mensal - 15 min):** Rodar flashcards do Anki gerados no Artefato 5.
+1. `No tema [Assunto], a regra geral é [...], salvo quando [...] (Art. X).`
+2. `O prazo prescricional para [Ato] é de [...] contado a partir de [...] (Art. Y).`
+3. `É vedado ao [Agente] [...], sob pena de [...] (Art. Z).`
+4. `Diferentemente de [Instituto A], o [Instituto B] exige [...] para sua validade.`
+5. `Conforme tese do STF/STJ, a responsabilidade de [Ente] é [...] quando presente [...].`
 
----
-
-## 🗂️ ARTEFATO 5: BLOCO DE FLASHCARDS DELIMITADO PARA O ANKI (CSV)
-Gere um bloco de código contendo cards atômicos de pergunta e resposta separados rigorosamente pelo delimitador `|` (pipe), prontos para importação direta no Anki:
-
-```text
-Pergunta frontal clara (Active Recall) | Resposta no verso com fundamentação exata e dispositivo legal
-[Pergunta sobre distinção ou pegadinha] | [Resposta direta sem rodeios + Art. X]
-```
-
-- **Regra dos Cards:** Mínimo de 10 e máximo de 20 cards atômicos. Proibido cards longos ou vagos. Devem conter apenas lacunas reais, prazos, exceções e os erros mapeados no Artefato 2.
-
----
-
-### REGRAS FINAIS DE EXECUÇÃO:
-- **Zero Ruído:** Inicie imediatamente no título `## ARTEFATO 1`.
-- **Encerramento no Ponto Final:** Conclua no fechamento do bloco de código do Anki, sem mensagens adicionais.
+Ao final, forneça o bloco delimitado por ponto-e-vírgula pronto para importação no Anki.
 </INSTRUCTION>
